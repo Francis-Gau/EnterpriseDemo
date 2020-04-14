@@ -1,2 +1,0 @@
-# EnterpriseDemo
-asd
