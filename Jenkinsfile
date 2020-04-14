@@ -26,10 +26,10 @@ pipeline {
             }
             steps {
                 script{
-                sh 'python3 main.py phones text output'
-                sh 'python3 main.py tablets csv output'
-                sh 'python3 main.py laptops json output'
-                sh 'python3 main.py phones yaml output'
+                sh 'python3 main.py phone text output'
+                sh 'python3 main.py tablet csv output'
+                sh 'python3 main.py laptop json output'
+                sh 'python3 main.py phone yaml output'
                 }
             }
         }
