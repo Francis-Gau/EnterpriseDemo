@@ -1,4 +1,4 @@
-#Francis Gau 2020-04-14 Basic python pipeline
+//Francis Gau 2020-04-14 Basic python pipeline
 pipeline {
     agent none 
     parameters {
