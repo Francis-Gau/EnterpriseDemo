@@ -26,7 +26,7 @@ pipeline {
             }
             steps {
                 script{
-                sh 'main.py phones text output'
+                sh 'python3 main.py phones text output'
                 sh 'main.py tablets csv output'
                 sh 'main.py laptops json output'
                 sh 'main.py phones yaml output'
