@@ -1,6 +1,6 @@
 //Francis Gau 2020-04-14 Basic python pipeline
 pipeline {
-    agent none 
+    agent any
     parameters {
         string(name: 'Target', defaultValue: 'run', description: 'Run Target Value')
     }
